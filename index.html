@@ -13,46 +13,74 @@
             background-color: #f4f4f9;
             color: #333;
         }
+
         header {
             background-color: #4CAF50;
             color: white;
-            padding: 20px 0;
+            padding: 30px 0;
             text-align: center;
+            border-bottom-left-radius: 50px;
+            border-bottom-right-radius: 50px;
         }
+
         nav {
             display: flex;
             justify-content: center;
             background-color: #333;
         }
+
         nav a {
             color: white;
             padding: 14px 20px;
             text-decoration: none;
             text-align: center;
         }
+
         nav a:hover {
             background-color: #575757;
         }
+
         section {
-            padding: 20px;
+            padding: 30px 20px;
             max-width: 900px;
             margin: auto;
+            border-left: 10px solid #4CAF50;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            background-color: #ffffff;
+            box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
         }
+
         h2 {
             color: #4CAF50;
         }
+
         ul {
             margin-left: 20px;
         }
+
         footer {
             background-color: #333;
             color: white;
             padding: 20px 0;
             text-align: center;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
         }
+
         .bibliography {
             font-size: 0.9em;
         }
+
+        /* Images styling */
+        .section-image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 15px 0;
+            border-radius: 15px;
+        }
+
     </style>
 </head>
 <body>
@@ -73,11 +101,13 @@
 <section id="home">
     <h2>Welcome</h2>
     <p>Every day, millions of plastic bottles, bags, and straws end up in our communities and oceans. Our mission is to explore how we can reduce single-use plastic and make sustainable choices that benefit both people and the environment.</p>
+    <img class="section-image" src="plastic pollution.jpg" alt="Plastic pollution in the environment">
 </section>
 
 <section id="conflict">
     <h2>Conflict / Background</h2>
     <p>Plastic pollution is a growing problem in our city. Local parks, rivers, and neighborhoods are littered with plastic waste. Stakeholders include residents, local businesses, and city government. The stakes are high: environmental damage, wildlife harm, and health risks for humans.</p>
+    <img class="section-image" src="image.png" alt="Wildlife affected by plastic">
 </section>
 
 <section id="thesis">
@@ -89,6 +119,7 @@
         <li>Communities that implement plastic bans or incentives see measurable reductions in pollution.</li>
         <li>Recycling programs alone are not enough; reducing plastic use at the source is most effective.</li>
     </ul>
+    <img class="section-image" src="image copy.png" alt="Reusable alternatives and recycling">
 </section>
 
 <section id="counter">
@@ -117,7 +148,7 @@
 </section>
 
 <footer>
-    <p>&copy; 2026 Plastic-Free Future | Cerulean Phoenix. </p>
+    <p>&copy; 2026 Plastic-Free Future | Created by Your Secret Identity</p>
 </footer>
 
 </body>
